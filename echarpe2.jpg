@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600">
+  <rect width="600" height="600" fill="#E8DCC4"/>
+  <rect x="150" y="200" width="300" height="400" rx="20" fill="#C77D58" opacity="0.7"/>
+  <rect x="150" y="220" width="300" height="40" fill="#9CAF88" opacity="0.6"/>
+  <rect x="150" y="300" width="300" height="40" fill="#FAF7F2" opacity="0.8"/>
+  <rect x="150" y="380" width="300" height="40" fill="#9CAF88" opacity="0.6"/>
+  <rect x="150" y="460" width="300" height="40" fill="#FAF7F2" opacity="0.8"/>
+  <text x="300" y="150" font-family="Georgia, serif" font-size="24" fill="#3D3D3D" text-anchor="middle">Écharpe Torsadée</text>
+</svg>

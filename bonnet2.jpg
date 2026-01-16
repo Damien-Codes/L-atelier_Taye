@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600">
+  <rect width="600" height="600" fill="#FAF7F2"/>
+  <ellipse cx="300" cy="350" rx="150" ry="180" fill="#D4C5A9"/>
+  <ellipse cx="300" cy="320" rx="140" ry="30" fill="#9CAF88"/>
+  <circle cx="300" cy="180" r="35" fill="#C77D58"/>
+  <text x="300" y="500" font-size="60" text-anchor="middle">🧶</text>
+  <text x="300" y="560" font-family="Georgia, serif" font-size="20" fill="#3D3D3D" text-anchor="middle">Bonnet Enfant</text>
+</svg>

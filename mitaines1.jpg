@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600">
+  <rect width="600" height="600" fill="#E8DCC4"/>
+  <rect x="180" y="250" width="100" height="200" rx="50" fill="#D4C5A9"/>
+  <rect x="320" y="250" width="100" height="200" rx="50" fill="#D4C5A9"/>
+  <rect x="180" y="260" width="100" height="40" fill="#C77D58" opacity="0.6"/>
+  <rect x="320" y="260" width="100" height="40" fill="#C77D58" opacity="0.6"/>
+  <text x="300" y="500" font-family="Georgia, serif" font-size="24" fill="#3D3D3D" text-anchor="middle">Mitaines Confort</text>
+</svg>

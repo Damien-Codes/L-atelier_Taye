@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Créations artisanales uniques en crochet et tricot fait main. Découvrez des pièces chaleureuses et authentiques, confectionnées avec amour et savoir-faire.">
+    <meta name="keywords"
+        content="crochet, tricot, fait main, artisanat, créations artisanales, bonnets, écharpes, plaids">
+    <title>Créations Artisanales - Crochet & Tricot Fait Main</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <!-- NAVIGATION -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">L'Atelier Taye</a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#apropos">À Propos</a></li>
+                <li><a href="#galerie">Créations</a></li>
+                <li><a href="#commander">Commander</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">☰</button>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="accueil">
+        <img src="hero-image.jpg" alt="Créations en crochet" class="hero-background" id="heroImage">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Créations Artisanales en Crochet & Tricot</h1>
+            <p class="subtitle">Chaque pièce raconte une histoire, tissée avec amour et patience</p>
+            <p style="max-width: 600px; margin: 0 auto var(--spacing-md);">
+                Découvrez des créations uniques, entièrement faites main avec des matériaux de qualité.
+                Chaque point est un geste d'amour, chaque création est une œuvre unique.
+            </p>
+            <div class="hero-buttons">
+                <a href="#galerie" class="btn btn-primary">Découvrir les Créations</a>
+                <a href="#apropos" class="btn btn-secondary">Notre Histoire</a>
+            </div>
+        </div>
+        <div class="scroll-indicator"></div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="section" id="apropos">
+        <div class="section-header">
+            <h2>À Propos</h2>
+            <p class="subtitle">Une passion transmise de génération en génération</p>
+        </div>
+
+        <div class="about-content">
+            <div class="about-image">
+                <img src="about-image.jpg" alt="Artisan au travail" id="aboutImage">
+            </div>
+            <div class="about-text">
+                <h3>L'Art du Fait Main</h3>
+                <p>
+                    Depuis mon enfance, j'ai été bercée par le doux cliquetis des aiguilles à tricoter
+                    et le mouvement hypnotique du crochet. Ce qui a commencé comme un passe-temps s'est
+                    transformé en une véritable passion, un art que je pratique avec amour et dévouement.
+                </p>
+                <p>
+                    Chaque création est unique, née de mes mains et de mon cœur. Je sélectionne
+                    soigneusement les matériaux, privilégiant la qualité et la douceur, pour créer
+                    des pièces qui vous accompagneront pendant des années.
+                </p>
+                <p>
+                    Mon atelier est un lieu de création où le temps s'arrête, où chaque point compte,
+                    où chaque couleur est choisie avec soin. Je crée des pièces qui réchauffent non
+                    seulement le corps, mais aussi le cœur.
+                </p>
+
+                <div class="about-highlights">
+                    <div class="highlight-card">
+                        <div class="highlight-icon">🧶</div>
+                        <h4>100% Fait Main</h4>
+                        <p>Chaque pièce est unique et créée avec soin</p>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="highlight-icon">💝</div>
+                        <h4>Avec Amour</h4>
+                        <p>Passion et dévouement dans chaque création</p>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="highlight-icon">✨</div>
+                        <h4>Qualité Premium</h4>
+                        <p>Matériaux soigneusement sélectionnés</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GALLERY SECTION -->
+    <section class="section" id="galerie">
+        <div class="section-header">
+            <h2>Mes Créations</h2>
+            <p class="subtitle">Découvrez l'univers chaleureux du fait main</p>
+        </div>
+
+        <div class="gallery-filters">
+            <button class="filter-btn active" data-filter="tous">Tous</button>
+            <button class="filter-btn" data-filter="bonnets">Bonnets</button>
+            <button class="filter-btn" data-filter="echarpes">Écharpes</button>
+            <button class="filter-btn" data-filter="plaids">Plaids</button>
+            <button class="filter-btn" data-filter="decorations">Décorations</button>
+            <button class="filter-btn" data-filter="accessoires">Accessoires</button>
+        </div>
+
+        <div class="gallery-grid" id="galleryGrid">
+            <!-- Gallery items will be dynamically inserted here -->
+        </div>
+    </section>
+
+    <!-- ORDER SECTION -->
+    <section class="section" id="commander">
+        <div class="section-header">
+            <h2>Commander</h2>
+            <p class="subtitle">Plusieurs façons de vous procurer vos créations préférées</p>
+        </div>
+
+        <div class="order-options">
+            <div class="order-card">
+                <div class="order-icon">🛍️</div>
+                <h3>Créations Disponibles</h3>
+                <p>Parcourez notre galerie et choisissez parmi les créations déjà réalisées</p>
+                <ul>
+                    <li>Pièces uniques prêtes à l'envoi</li>
+                    <li>Photos réelles des créations</li>
+                    <li>Expédition rapide</li>
+                    <li>Emballage soigné</li>
+                </ul>
+                <a href="#galerie" class="btn btn-primary">Voir la Galerie</a>
+            </div>
+
+            <div class="order-card">
+                <div class="order-icon">✏️</div>
+                <h3>Commande Personnalisée</h3>
+                <p>Créez votre pièce unique selon vos envies et vos couleurs préférées</p>
+                <ul>
+                    <li>Choix des couleurs</li>
+                    <li>Dimensions sur mesure</li>
+                    <li>Motifs personnalisés</li>
+                    <li>Conseils personnalisés</li>
+                </ul>
+                <a href="#contact" class="btn btn-primary">Me Contacter</a>
+            </div>
+
+            <div class="order-card">
+                <div class="order-icon">🎁</div>
+                <h3>Idée Cadeau</h3>
+                <p>Offrez une création unique et chaleureuse pour un moment spécial</p>
+                <ul>
+                    <li>Emballage cadeau offert</li>
+                    <li>Carte personnalisée</li>
+                    <li>Suggestions selon l'occasion</li>
+                    <li>Livraison directe possible</li>
+                </ul>
+                <a href="#contact" class="btn btn-primary">Demander Conseil</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- VALUES SECTION -->
+    <section class="section" id="valeurs">
+        <div class="section-header">
+            <h2>Mes Valeurs</h2>
+            <p class="subtitle">Ce qui rend chaque création spéciale</p>
+        </div>
+
+        <div class="values-grid">
+            <div class="value-card">
+                <div class="value-icon">🤲</div>
+                <h3>Fait Main avec Passion</h3>
+                <p>
+                    Chaque pièce est entièrement réalisée à la main, point par point,
+                    avec patience et amour du travail bien fait.
+                </p>
+            </div>
+
+            <div class="value-card">
+                <div class="value-icon">🌿</div>
+                <h3>Matériaux de Qualité</h3>
+                <p>
+                    Je sélectionne avec soin des laines et fils de qualité supérieure,
+                    doux, durables et agréables à porter.
+                </p>
+            </div>
+
+            <div class="value-card">
+                <div class="value-icon">💎</div>
+                <h3>Créations Uniques</h3>
+                <p>
+                    Chaque pièce est unique ou produite en très petite série,
+                    garantissant l'exclusivité de votre création.
+                </p>
+            </div>
+
+            <div class="value-card">
+                <div class="value-icon">⏰</div>
+                <h3>Temps & Savoir-Faire</h3>
+                <p>
+                    Je prends le temps nécessaire pour chaque création,
+                    sans compromis sur la qualité et les finitions.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="section" id="contact">
+        <div class="section-header">
+            <h2>Contact</h2>
+            <p class="subtitle">Parlons de votre future création</p>
+        </div>
+
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Restons en Contact</h3>
+                <p>
+                    N'hésitez pas à me contacter pour toute question, commande personnalisée
+                    ou simplement pour discuter de vos envies créatives.
+                </p>
+
+                <div class="contact-item">
+                    <span class="contact-item-icon">📧</span>
+                    <div>
+                        <strong>Email</strong><br>
+                        <a href="mailto:nathalie.guimard@yahoo.fr">nathalie.guimard@yahoo.fr</a>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <span class="contact-item-icon">📱</span>
+                    <div>
+                        <strong>WhatsApp</strong><br>
+                        <a href="https://wa.me/33123456789">+33 6 10 02 13 40</a>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <span class="contact-item-icon">⏱️</span>
+                    <div>
+                        <strong>Disponibilité</strong><br>
+                        Lun - Sam : 9h - 18h
+                    </div>
+                </div>
+
+                <h3 style="margin-top: var(--spacing-md);">Suivez-moi</h3>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/tayetaloche/" class="social-link" aria-label="Instagram">📷</a>
+                </div>
+            </div>
+
+            <form class="contact-form" id="contactForm">
+                <h3>Envoyez-moi un Message</h3>
+
+                <div class="form-group">
+                    <label for="name">Nom *</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email *</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">Sujet</label>
+                    <select id="subject" name="subject">
+                        <option value="question">Question générale</option>
+                        <option value="commande">Commande personnalisée</option>
+                        <option value="disponibilite">Disponibilité d'une création</option>
+                        <option value="autre">Autre</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message *</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Envoyer le Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">L'Atelier Taye</div>
+            <p>Fait main avec amour ❤️</p>
+            <p>&copy; 2026 L'Atelier Taye. Tous droits réservés.</p>
+            <p style="font-size: 0.875rem; margin-top: var(--spacing-sm);">
+                Chaque création est unique et protégée par le droit d'auteur
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
